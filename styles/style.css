@@ -1,6 +1,6 @@
 @mixin transition($property) {transition: $property .25s;}
 
-html {font: 16px 'Open Sans Condensed', 'Roboto Condensed', Verdana, sans-serif;}
+html {font: 20px 'Open Sans Condensed', 'Roboto Condensed', Verdana, sans-serif;}
 h1 {font-size: 2.25em;}
 h2 {font-size: 2em;}
 h3 {font-size: 1.75em;}
@@ -9,7 +9,7 @@ p {font-size: 1.25em;}
 		
 .wrapper {
 	margin: auto;
-	width: 80%;
+	width: 60%;
 }
 header,
 nav,
@@ -19,12 +19,15 @@ footer {
 	float: left;
 	width: 100%;
 }
+h1 {
+	text-align: center;
+}
 a {
 	text-decoration: none;
 	transition: color .25s;
 }
 .button {
-	background-color: lightgray;
+	background-color: #4CAF50;
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -33,15 +36,31 @@ a {
 	display: inline-block;
 	font-size: 16px;
 	text-transform: uppercase;
-}
-
-.button {
 	transition-duration: 0.2s;
 }
 
+.redbutton {
+	background-color: red;
+}
+.bluebutton {
+	background-color: blue;
+}
+.yellowbutton {
+	background-color: orange;
+}
+
 .button:hover {
-	background-color: #4CAF50;
+	background-color: green;
 	color: white;
+}
+.redbutton:hover {
+	background-color: darkred;
+}
+.bluebutton:hover {
+	background-color: darkblue;
+}
+.yellowbutton:hover {
+	background-color: red;
 }
 
 .link {
@@ -51,7 +70,7 @@ a {
 
 nav h1 {
 	float: left;
-	font-size: 3.5em;
+	font-size: 2.5em;
 	text-transform: uppercase;
 	margin-left: 1em;
 }
