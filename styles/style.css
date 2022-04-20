@@ -32,6 +32,10 @@ a {
 	text-decoration: none;
 	transition: color .25s;
 }
+img {
+	width: 800px;
+}
+
 .button {
 	background-color: #4CAF50;
 	border: none;
@@ -97,6 +101,13 @@ a:visited {
 	color: pink;
 }
 a:hover {
+	color: red;
+}
+
+.active:link {
+	color: red;
+}
+.active:visited {
 	color: red;
 }
 
