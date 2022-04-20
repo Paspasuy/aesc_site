@@ -10,6 +10,12 @@ p {font-size: 1.25em;}
 .wrapper {
 	margin: auto;
 	width: 60%;
+}	
+.bw {
+	margin: auto;
+	width: 100%;
+	justify-content: center;
+	display: flex;
 }
 header,
 nav,
