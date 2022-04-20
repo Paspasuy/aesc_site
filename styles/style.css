@@ -141,3 +141,17 @@ section h1 {
 article {
 	margin-left: 1rem;
 }
+
+nav a {
+	float: left;
+}
+
+nav a img {
+	margin-top: 30px;
+}
+
+
+.logo {
+	width: 300px;
+	display: block;
+}
